@@ -152,6 +152,17 @@ header {
     column-gap: 24px;
 }
 
+.course {
+    background: white;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+span.rating {
+    padding-left: 24px;
+}
+
 .course .course-banner img {
     width: 224px;
     height: 104px;
@@ -173,6 +184,13 @@ header {
 
 .fa-star.empty {
     color: #AEAEAE;
+}
+
+.course-duration {
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 10px;
 }
 
 /* media quearies */
